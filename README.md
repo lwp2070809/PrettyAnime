@@ -73,15 +73,15 @@
 
     ```json5
     {
-        "rpc-authentication-required": true, // 开启远程访问密码认证
-        "rpc-enabled": true, // 开启远程连接
-        "rpc-password": "passwd", // 认证密码
-        "rpc-username": "username", // 认证用户名
-        "rpc-host-whitelist-enabled": false, // 禁用域名白名单
-        "rpc-whitelist-enabled": false, // 禁用IP白名单
-        "trash-original-torrent-files": false, // 不自动删除Torrent文件
-        "watch-dir": "/opt/etc/transmission/watchdir", // 设置Torrent自动监听目录
-        "watch-dir-enabled": true // 开启Torrent自动监听
+        "rpc-authentication-required": true,  // 开启远程访问密码认证
+        "rpc-enabled": true,  // 开启远程连接
+        "rpc-password": "passwd",  // 认证密码
+        "rpc-username": "username",  // 认证用户名
+        "rpc-host-whitelist-enabled": false,  // 禁用域名白名单
+        "rpc-whitelist-enabled": false,  // 禁用IP白名单
+        "trash-original-torrent-files": false,  // 不自动删除Torrent文件
+        "watch-dir": "/opt/etc/transmission/watchdir",  // 设置Torrent自动监听目录
+        "watch-dir-enabled": true  // 开启Torrent自动监听
     }
     ```
 
