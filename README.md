@@ -71,7 +71,7 @@
 
     编辑 transmission-daemon 的配置文件, 位于`/tmp/mnt/sda1/entware/etc/transmission/settings.json` 以下为需要注意的配置项.
 
-    ```json
+    ```json5
     {
         "rpc-authentication-required": true, // 开启远程访问密码认证
         "rpc-enabled": true, // 开启远程连接
